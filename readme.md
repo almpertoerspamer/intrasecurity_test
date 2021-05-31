@@ -1,3 +1,4 @@
+The  Intra-domain  Security  module  receives  network  traffic  data  as  input  and  produces  network events  and  alerts  about  potential  failures  or  security  threats 
 
 ![](https://github.com/almpertoerspamer/intrasecurity_test/blob/main/architecture.png)
 
