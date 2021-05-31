@@ -1,5 +1,5 @@
 
-! https://github.com/almpertoerspamer/intrasecurity_test/blob/main/architecture.png
+![alt text] https://github.com/almpertoerspamer/intrasecurity_test/blob/main/architecture.png
 
 # Deployment steps:
 
