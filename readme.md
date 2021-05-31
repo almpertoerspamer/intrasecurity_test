@@ -5,7 +5,8 @@ docker pull blacktop/zeek:elastic
 
 **In a local directory clone docker-zeek.git:**
 
-$git clone --depth 1 https://github.com/blacktop/docker-zeek.git
+$ git clone --depth 1 https://github.com/blacktop/docker-zeek.git
+
 $cd docker-zeek
 
 **Modify docker-compose.elastic.yml:**
