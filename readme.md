@@ -10,25 +10,25 @@ $ git clone --depth 1 https://github.com/blacktop/docker-zeek.git
 $ cd docker-zeek
 ```
 **Modify docker-compose.elastic.yml:**
-'''
+```
 change kibana enviroment:
       - xpack.reporting.enabled=true
       - xpack.security.enabled=false
-'''
+```
 **Add your pcap file inside pcap folder**
 
  change the corresponding name inside docker-compose.elastic.yml at zeek->command domain.
 
 **Run:**
-'''
+```
 $docker-compose -f docker-compose.elastic.yml up -d kibana
-'''
+```
 **wait 2 minutes for "kibana service" to start**
-'''
+```
 $docker-compose -f docker-compose.elastic.yml up -d filebeat
 
 $docker-compose -f docker-compose.elastic.yml up zeek
-'''
+```
 **wait 2 minutes while for filebeat service to consume all the logs**
 
 # Visualize data in Kibana 
