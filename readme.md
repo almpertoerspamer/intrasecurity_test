@@ -8,10 +8,10 @@ The platform monitors various virtual TAPS and produce live (real-time) traffic 
 ![](https://github.com/almpertoerspamer/intrasecurity_test/blob/main/architecture.png)
 
 # Deployment steps:
-
-docker pull blacktop/zeek
-docker pull blacktop/zeek:elastic
-
+```
+$ docker pull blacktop/zeek
+$ docker pull blacktop/zeek:elastic
+```
 **In a local directory clone docker-zeek.git:**
 ```
 $ git clone --depth 1 https://github.com/blacktop/docker-zeek.git
