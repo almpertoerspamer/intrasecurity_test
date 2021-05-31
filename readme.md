@@ -25,7 +25,7 @@ change kibana enviroment:
 ```
 **# Add your pcap file inside pcap folder**
 
-**# Change the corresponding name inside docker-compose.elastic.yml at zeek->command domain.
+**# Change the corresponding name inside docker-compose.elastic.yml at zeek->command domain.**
 
 **Run:**
 ```
