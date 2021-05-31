@@ -15,7 +15,6 @@ $ docker pull blacktop/zeek:elastic
 **In a local directory clone docker-zeek.git:**
 ```
 $ git clone --depth 1 https://github.com/blacktop/docker-zeek.git
-
 $ cd docker-zeek
 ```
 **Modify docker-compose.elastic.yml:**
@@ -35,7 +34,6 @@ $ docker-compose -f docker-compose.elastic.yml up -d kibana
 **wait 2 minutes for "kibana service" to start**
 ```
 $ docker-compose -f docker-compose.elastic.yml up -d filebeat
-
 $ docker-compose -f docker-compose.elastic.yml up zeek
 ```
 **wait 2 minutes while for filebeat service to consume all the logs**
