@@ -21,13 +21,13 @@ change kibana enviroment:
 
 **Run:**
 ```
-$docker-compose -f docker-compose.elastic.yml up -d kibana
+$ docker-compose -f docker-compose.elastic.yml up -d kibana
 ```
 **wait 2 minutes for "kibana service" to start**
 ```
-$docker-compose -f docker-compose.elastic.yml up -d filebeat
+$ docker-compose -f docker-compose.elastic.yml up -d filebeat
 
-$docker-compose -f docker-compose.elastic.yml up zeek
+$ docker-compose -f docker-compose.elastic.yml up zeek
 ```
 **wait 2 minutes while for filebeat service to consume all the logs**
 
