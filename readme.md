@@ -23,9 +23,9 @@ change kibana enviroment:
       - xpack.reporting.enabled=true
       - xpack.security.enabled=false
 ```
-**Add your pcap file inside pcap folder**
+**# Add your pcap file inside pcap folder**
 
- change the corresponding name inside docker-compose.elastic.yml at zeek->command domain.
+**# Change the corresponding name inside docker-compose.elastic.yml at zeek->command domain.
 
 **Run:**
 ```
