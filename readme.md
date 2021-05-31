@@ -1,4 +1,4 @@
-The  Intra-domain  Security  module  receives  network  traffic  data  as  input  and  produces  network events  and  alerts  about  potential  failures  or  security  threats 
+The  Intra-domain  Security  module  receives  network  traffic  data  as  input  and  produces  network events  and  alerts  about  potential  failures  or  security  threats. A Zeek platform is employed as a network security monitoring tool. The platform monitors various virtual TAPS and produce live (real-time) traffic data which are then aggregated and analysed within Elasticsearch platform. Finally data is send to Kibana for visualization.
 
 ![](https://github.com/almpertoerspamer/intrasecurity_test/blob/main/architecture.png)
 
